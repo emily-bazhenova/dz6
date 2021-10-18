@@ -3,3 +3,88 @@
   width: 65px;
   display: inline-block;
 }
+
+.header {
+  border: 1px solid black;
+  width: 1000px;
+  margin-bottom: 100px;
+}
+
+.header-col {
+  display: inline-block;
+  width: 33%;
+}
+
+.item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: red;
+}
+
+.list {
+  text-align: center;
+}
+.contacts {
+  text-align: right;
+}
+
+.contacts-tel:hover {
+  color: red;
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(67, 218, 180);
+  display: inline-block;
+  margin-left: 300px;
+  position: relative;
+}
+
+.circle-2 {
+  margin-left: 440px;
+}
+
+.circle-small {
+  background-color: salmon;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+}
+
+.circle-1 .circle-small-1 {
+  top: 15px;
+  left: 5px;
+}
+
+.circle-1 .circle-small-2 {
+  bottom: 0px;
+  right: 0px;
+}
+
+.circle-1 .circle-small-3 {
+  bottom: 150px;
+  left: 75px;
+}
+
+.circle-2 .circle-small-1 {
+  left: 150px;
+}
+
+.circle-2 .circle-small-2 {
+  bottom: 150px;
+  right: 0;
+}
+
+.circle-2 .circle-small-3 {
+  right: 0;
+}
